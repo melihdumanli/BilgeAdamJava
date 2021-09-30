@@ -2,6 +2,8 @@ package com.bilgeadam.melih;
 
 import java.util.Scanner;
 
+import com.bilgeadam.BAUtils.BAUtils;
+
 public class velisgame {
     public static void main(String[] args) {
 

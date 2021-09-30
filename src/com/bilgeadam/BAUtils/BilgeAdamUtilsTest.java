@@ -1,4 +1,4 @@
-package com.bilgeadam.melih;
+package com.bilgeadam.BAUtils;
 
 public class BilgeAdamUtilsTest {
 

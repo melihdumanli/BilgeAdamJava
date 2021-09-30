@@ -1,4 +1,4 @@
-package com.bilgeadam.melih;
+package com.bilgeadam.BAUtils;
 
 import java.util.Scanner;
 
@@ -6,8 +6,8 @@ public class BAUtils {
 	private static Scanner scan = new Scanner(System.in);
 	
 	public static void footer() {
-		System.out.println("\tProgram� kulland���n�z i�in te�ekk�rler");
-		System.out.println("\t\tTekrar g�r��mek �zere");
+		System.out.println("\tProgramı kullandığınız için teşekkürler");
+		System.out.println("\t\tTekrar görüşmek üzere");
 		closeResources();
 	}
 	
@@ -49,7 +49,7 @@ public class BAUtils {
 		showQuery(start + " "+ numElements + " " + query + "\n");
 		int[] retVal = new int[numElements];
 		for (int i = 0; i < numElements; i++) {
-			System.out.print((i+1) + ". de�eri giriniz: ");
+			System.out.print((i+1) + ". değeri giriniz: ");
 			retVal[i] = scan.nextInt();
 		}
 		return retVal;

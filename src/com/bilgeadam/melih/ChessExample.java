@@ -16,6 +16,7 @@ public class ChessExample {
 		char ch1 = position.charAt(0);
 		char ch2 = position.charAt(1);
 		char pos = Character.toLowerCase(ch1);
+		int i;
 		while (i>8) {
 			while (pos >'i') {
 				System.out.println("Lütfen belirtilen aralıkta bir değer giriniz : \nÖrn:D4");
