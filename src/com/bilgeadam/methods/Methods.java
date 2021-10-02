@@ -29,4 +29,6 @@ public class Methods {
 		int toplam = voidsizParametreli(4,6);
 		System.out.println(toplam);
 	}
+
+
 }

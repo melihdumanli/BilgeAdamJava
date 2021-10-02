@@ -25,10 +25,10 @@ public class BilgeAdamUtilsTest {
 		} while (!proceeding);
 		
 		
-//		boolean proceed = BAUtils.proceeding("Devam etmek istiyor musunuz) (Evet / Hay�r)", "Evet");
-//		System.out.println("Okunan de�er: " + proceed);
-//		int[] ints = BAUtils.readInt("L�tfen", "adet tam say� giriniz", 10);
-//		System.out.println("Okunan de�er: " + ints);
+		boolean proceed = BAUtils.proceeding("Devam etmek istiyor musunuz) (Evet / Hayır)", "Evet");
+		System.out.println("Okunan değer: " + proceed);
+		int[] ints = BAUtils.readInt("Lütfen", "adet tam sayı giriniz", 10);
+		System.out.println("Okunan değer: " + ints);
 		
 		BAUtils.footer();
 

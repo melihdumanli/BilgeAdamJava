@@ -1,4 +1,4 @@
-package com.bilgeadam.melih;
+package com.bilgeadam.melih.control;
 
 public class Random {
     public static void main(String[] args) {
