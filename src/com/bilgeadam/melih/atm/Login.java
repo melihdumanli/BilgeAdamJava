@@ -1,5 +1,6 @@
 package com.bilgeadam.melih.atm;
 
+import com.bilgeadam.melih.atm.UserInfo;
 import com.bilgeadam.BAUtils.BAUtils;
 
 public class Login {

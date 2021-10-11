@@ -1,6 +1,6 @@
 package com.bilgeadam.BAUtils;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class BAUtils {
 	private static Scanner scan = new Scanner(System.in);
@@ -25,6 +25,39 @@ public class BAUtils {
 		System.err.println("\n\n\t\t" + row);
 		System.err.println("\t\t** " + title.toUpperCase() + " **");
 		System.err.println("\t\t" + row + "\n");
+	}
+
+	public static int menu(HashMap<Integer,String > menuItems){
+		boolean correctAnswer = false;
+		int selection = -1;
+		do{
+			showMenuItems(menuItems);
+			selection = getUserSelection();
+			correctAnswer = evaluateAnswer(menuItems, selection);
+		}while (!correctAnswer);
+		return selection;
+	}
+	private static boolean evaluateAnswer(HashMap<Integer,String > menuItems, int selection){
+		return menuItems.containsKey(selection);
+	}
+	private static int getUserSelection(){
+		return readInt("Lütfen Seçiminizi Yapınız");
+	}
+	private static void showMenuItems (TreeMap<Integer, String> menuItems) { //en doğru veri yapısı
+		Set<Map.Entry<Integer, String >> items = menuItems.entrySet();
+		for (Map.Entry<Integer, String > entry: items){
+			System.out.println("\t(" + entry.getKey() + ") ...." + entry.getValue().trim());
+		}
+
+	}
+	private static void showMenuItems(HashMap<Integer, String > menuItems){
+		//Set<Map.Entry<Integer, String >> items = menuItems.entrySet();
+		ArrayList<Integer> keys = new ArrayList<Integer>(menuItems.keySet());
+		Collections.sort(keys);
+		for (Integer key : keys) {
+			System.out.println("\t(" + key + ") ..." + menuItems.get(key).trim());
+		}
+		System.out.println();
 	}
 	
 	public static String readString(String query) {

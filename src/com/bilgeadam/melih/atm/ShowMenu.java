@@ -1,12 +1,10 @@
 package com.bilgeadam.melih.atm;
 
-import java.util.List;
-
 public class ShowMenu {
 
     public static void ShowAccounts(){
         AccountCreator accounts = new AccountCreator();
-        String[] accountList = accounts.AccountCreator();
+        String[] accountList = accounts.AccountCreator();//
 
         for (int i = 0; i < accounts.AccountCreator().length; i++) {
             System.out.println((i+1) + ". Hesap Numarası :  " + accountList[i]);
@@ -19,6 +17,10 @@ public class ShowMenu {
         for (int i = 0; i < accounts.IbanCreator().length; i++) {
             System.out.println((i+1) + ". IBAN Numarası :  " + ibanList[i]);
         }
+    }
+    public static int userSelection(boolean cont){
+
+        return 0;
     }
 
 }

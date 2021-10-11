@@ -1,6 +1,6 @@
 package com.bilgeadam.melih.computer2;
 
-abstract public class CommonProperty {
+public abstract class CommonProperty {
 
     // özellikler
     protected String model;
