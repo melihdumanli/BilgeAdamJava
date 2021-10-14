@@ -1,6 +1,5 @@
-package com.bilgeadam.melih.timedate;
+package com.bilgeadam.melih.timedate.examples;
 
-import java.net.Socket;
 import java.time.*;
 
 public class TimeDateTester {

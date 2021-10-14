@@ -1,2 +1,4 @@
 module BilgeAdamJavaMD {
+	requires lombok;
+
 }

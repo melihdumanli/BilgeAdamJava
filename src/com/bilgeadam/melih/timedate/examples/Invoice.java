@@ -1,4 +1,4 @@
-package com.bilgeadam.melih.timedate;
+package com.bilgeadam.melih.timedate.examples;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

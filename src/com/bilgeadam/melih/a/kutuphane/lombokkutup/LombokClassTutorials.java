@@ -1,9 +1,12 @@
-package com.bilgeadam.com.a.kutuphane.lombokkutup;
+package com.bilgeadam.melih.a.kutuphane.lombokkutup;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
 @NoArgsConstructor
@@ -13,8 +16,12 @@ public class LombokClassTutorials {
 private int id;
 private String adi;
 private String soyadi;
-private String numarasi;
+private int numarasi;
 private String memleket;
 private String sehir;
 private String tarih;
+
+    public static void main(String[] args) {
+
+    }
 }
