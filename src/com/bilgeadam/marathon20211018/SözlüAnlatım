@@ -1,0 +1,3 @@
+Oluşturduğumuz mevcut dosyaları programı kapattıktan sonra tekrar okumak için belirlenen bir dosyaya kaydedebiliriz.
+Kaydedilen dosyayı daha sonra tekrar satır satır okuyarak çalıştırabilir, String olarak inceleyebilir, listeleyebilir ve üzerinde çalışabiliriz.
+Her satırı yeniden listelere ekleyebiliriz. Yeni oluşturulacak verileri de bu verilen üzerine yazar ve bu verileri kalıcı olarak saklayabiliriz.
