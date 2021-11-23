@@ -1,4 +1,4 @@
-# Assignment
+# JAVA Training
 ## BA Boost Java Assignments
 ### 1. Java 8 SE Features
 It can be clearly seen that Java 8 has many new features such as programming language news, security options, network options, tools etc.
